@@ -1,0 +1,10 @@
+[package]
+name = "static-dep"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "cdylib", "rlib"] # Can not compile successfully
+# crate-type = ["rlib"] # Compile successfully
+
+[dependencies]

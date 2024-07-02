@@ -1,0 +1,5 @@
+[workspace]
+members = ["static-dep", "using"]
+resolver = "2"
+[patch.crates-io]
+static-dep = { path = "static-dep" }
